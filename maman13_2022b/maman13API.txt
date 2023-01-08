@@ -1,0 +1,67 @@
+API documentation - maman 13:
+addFlight
+/**
+* check if there is place in flight schedule and if the input flight matching to destination / origin
+*if the answer for both qustion is yes - method add flight f from flight schedule
+*@param f - represent object of Flight class
+*@return true if f was added
+*@return false if f wasn't added
+*/
+
+removeFlight
+/**
+*check if there is flights in the flight schedule, then check if the input flight exist
+*if the answer for both qustion is yes - method remove flight f from flight schedule
+*@param f - represent object of Flight class
+*@return true if f was removed
+*@return false if f wasn't removed / exist
+*/
+
+firstFlightFromOrigin
+/**
+*get string represent the flight origin and check if their is flights from this city in schedule
+*if there is at least 1 flight from 'place' - method find the first flight departure time
+*@param String place - represent the origin of flight
+*@return Time1 object represent departure time of first flight from origin (if their is flights from there)
+*@return null if there is no flights from this origin
+*/
+
+howManyFullFlights
+/**
+*check how many flights from the flight schedule is full
+*@return int represent number of full flights
+*@return null if there is no full flights
+*/
+
+howManyFlightsBetween
+/**
+*check how many flights are between _city and parameter 'place'
+*@param String place represent the city name that flight depart or land at
+*@return the number of flights between _city and 'place'
+*/
+
+mostPopularDestination
+/**
+*count the number of flights which lands in every city in flight scheudle 
+*@return String represent the city that most flight lands at
+*@return null if there is no flights on flights scedule
+*/
+
+mostExpensiveTicket
+/**
+*check which flight's ticket cost the most
+*if more then 1 flight have the most exepnsice ticket (same price) - method return the first flight that check first
+*@return Flight object represent the flight with the most expensive flight ticket
+*@return null if there is no flight on flight schedule
+*/
+
+longestFlight
+/**
+*check which flight's duration in flights schedule is the longest
+*@return Flight object which represent the longest flight on flight schedule
+*/
+
+toString
+/**
+*
+*/
