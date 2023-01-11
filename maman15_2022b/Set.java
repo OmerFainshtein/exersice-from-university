@@ -35,7 +35,7 @@ public class Set
      */
     public boolean isMember(int num)
     {
-        IntNode curr = _head;//new IntNode objext
+        IntNode curr = _head;//new IntNode object
         while(curr != null)//the cell in list is not null
         {
             if(curr.getValue() == num)// if the object contain the int num
