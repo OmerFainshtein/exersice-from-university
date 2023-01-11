@@ -1,12 +1,8 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+PROJECT TITLE: maman 13
+PURPOSE OF PROJECT: I was asked to build an array that represents a schedule of flights (based on classes from the previous assignment) and write methods that allow operations on the array of flights (such as deleting, adding, updating, and more..).
+VERSION or DATE:04/2022
+AUTHORS:@OmerFainshtein
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+
